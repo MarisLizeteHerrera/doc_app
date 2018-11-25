@@ -36,7 +36,7 @@ gem "semantic-ui-sass"
 
 group :development, :test do
   gem "pry"
-  gem "faker"
+  gem "faker", :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 end
 
 group :development do
